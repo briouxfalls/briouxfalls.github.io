@@ -96,6 +96,7 @@ input[type=submit]:hover {
   padding: 20px;
   width: 10%;
   height: 25%;
+  margin: 20px 20px 20px 20px;
 } 
 
 .menuTitle {
