@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(31 31 31);
+}
+div {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.topnav { 
+    background-color: #fff;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: rgb(31 31 31);
+    text-align: center;
+    padding: 1.5% 1.5%;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #9d9d9d;
+    color: black;
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #696969;
+    color: black;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #0c0c0c; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #0c0c0c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(31, 31, 31);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: rgb(31 31 31);
+  padding: 20px;
+} 
