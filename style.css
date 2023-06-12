@@ -89,6 +89,26 @@ input[type=submit]:hover {
   padding: 20px;
 } 
 
+.menuContainer {
+  float: left;
+  border-radius: 5px;
+  background-color: rgb(31 31 31);
+  padding: 20px;
+  width: 10%;
+  height: 25%;
+} 
+
+.menuTitle {
+  text-align: center;
+}
+
+.menuitems {
+  padding: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
 .containerBar {
   position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
