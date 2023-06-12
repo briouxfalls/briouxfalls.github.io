@@ -5,6 +5,9 @@ div {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+input{
+  font-family: 'Courier New', Courier, monospace;
+}
 
 .h1 {
     font-size: 50px;
