@@ -1,16 +1,17 @@
 body {
-    background-color: rgb(31 31 31);
+    background-image: url("images/background.jpg");
 }
 
 div {
   color: white;
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
 }
 
 .h1title {
   color: black;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 input{
@@ -19,7 +20,7 @@ input{
 
 .h1 {
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .topnav { 
