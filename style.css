@@ -88,3 +88,9 @@ input[type=submit]:hover {
   background-color: rgb(31 31 31);
   padding: 20px;
 } 
+
+.containerBar {
+  position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
